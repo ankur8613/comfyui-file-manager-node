@@ -28,6 +28,6 @@ A custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allo
 
 ```bash
 cd path_to_ComfyUI/custom_nodes/
-git clone https://github.com/yourusername/comfyui-file-manager-node.git
+git clone https://github.com/ankur8613/comfyui-file-manager-node.git
 
 
