@@ -1,4 +1,4 @@
-# custom_nodes/file_manager_node.py
+# file_manager_node.py
 
 import os
 from typing import Tuple
