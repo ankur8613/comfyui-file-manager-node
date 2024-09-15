@@ -19,4 +19,15 @@ A custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that allo
 2. Navigate to the **Manager** tab.
 3. Click on **Install from URL**.
 4. Enter the GitHub repository URL:
+5. Click **Install**.
+6. Restart ComfyUI to load the new node.
+
+### **Manual Installation**
+
+1. Clone the repository into your `custom_nodes` directory:
+
+```bash
+cd path_to_ComfyUI/custom_nodes/
+git clone https://github.com/yourusername/comfyui-file-manager-node.git
+
 
