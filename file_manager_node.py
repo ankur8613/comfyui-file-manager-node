@@ -2,9 +2,9 @@
 
 import os
 from typing import Tuple
-from nodes import NODE_CLASS_MAPPINGS, CommonNode
+from nodes import NODE_CLASS_MAPPINGS
 
-class FileManagerNode(CommonNode):
+class FileManagerNode:
     """
     A ComfyUI custom node that lists files in a directory and reads file contents.
     """
@@ -30,7 +30,6 @@ class FileManagerNode(CommonNode):
     RETURN_NAMES = ("file_list", "file_content")
     FUNCTION = "manage_files"
     CATEGORY = "Utilities/File Management"
-    OUTPUT_IS_LIST = (False, False)
 
     def manage_files(self, path: str, filename: str) -> Tuple[str, bytes]:
         try:
